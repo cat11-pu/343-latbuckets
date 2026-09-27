@@ -1,0 +1,14 @@
+{
+  "budget": 1,
+  "bounds": [100, 500, 1000],
+  "ms_error_code": "E_BAD_MS",
+  "dup_error_code": "E_DUP_ENTRY",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "buckets": [0, 0, 0, 0], "slowest": [], "names": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "record", "name": "a", "ms": 120 },
+    { "id": 2, "kind": "record", "name": "b", "ms": 900 },
+    { "id": 3, "kind": "record", "name": "c", "ms": 40 },
+    { "id": 4, "kind": "record", "name": "d", "ms": 900 }
+  ]
+}
